@@ -7,13 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "Masonry/Masonry.h"
+#import <Masonry/Masonry.h>
 @interface ViewController ()
 <
 UITableViewDataSource,
 UITableViewDelegate
 >
-@property (nonatomic,strong)UITableView *tabelview;
+@property (nonatomic, strong) UITableView *tabelview;
 @end
 
 @implementation ViewController

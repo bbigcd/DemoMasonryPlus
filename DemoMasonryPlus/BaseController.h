@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Masonry/Masonry.h"
+#import <Masonry/Masonry.h>
 @interface BaseController : UIViewController
 @property (nonatomic,strong)UILabel *label;
 @end
